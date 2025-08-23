@@ -1,4 +1,4 @@
-FROM python:3.14.0a1-slim
+FROM python:3.14.0rc2-slim
 
 RUN pip install pipenv
 RUN apt update && apt install build-essential -y
